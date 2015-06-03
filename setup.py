@@ -7,7 +7,10 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
 setup(
     name='allauth-login-page',
     version='0.1',
-    packages=['allauth-login-page'],
+    packages=[
+       # 'allauth-login-page', 
+        'helpers'
+        ],
     include_package_data=True,
     license='MIT', 
     description='Django app that wraps allauth and provides nice login page',
