@@ -8,8 +8,8 @@ setup(
     name='allauth-login-page',
     version='0.1',
     packages=[
-       # 'allauth-login-page', 
-        'helpers'
+        'allauth-login-page', 
+       # 'helpers'
         ],
     include_package_data=True,
     license='MIT', 
