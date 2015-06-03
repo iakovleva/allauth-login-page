@@ -9,7 +9,7 @@ setup(
     version='0.1',
     packages=[
         'allauth-login-page', 
-       # 'helpers'
+        'helpers'
         ],
     include_package_data=True,
     license='MIT', 
