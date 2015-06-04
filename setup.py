@@ -14,10 +14,12 @@ setup(
         'account.templatetags',
         ],
     package_data={
-        'static.auth': ['*'], 
-        'static.css': ['*'], 
-		'templates.accounts': ['*'],
-        'templates.socialaccount': ['*'],
+        'account': [
+            'static/auth/*.png',
+            'static/css/*.scss', 
+            'templates/accounts/*.html', 
+            'templates/socialaccount/*.html'
+            ],
         }, 
     include_package_data=True,
     license='MIT', 
