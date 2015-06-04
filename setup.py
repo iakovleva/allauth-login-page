@@ -9,9 +9,12 @@ setup(
     version='0.1',
     packages=[
         'allauth-login-page', 
-        'allauth-login-page.helpers'
-        'allauth-login-page.common_helpers'
+        'allauth-login-page.helpers',
+        'allauth-login-page.common_helpers',
         ],
+    package_data={
+        '': ['static', 'templates', 'templatetags'],
+        }, 
     include_package_data=True,
     license='MIT', 
     description='Django app that wraps allauth and provides nice login page',
