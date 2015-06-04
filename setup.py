@@ -10,6 +10,7 @@ setup(
     packages=[
         'allauth-login-page', 
         'allauth-login-page.helpers'
+        'allauth-login-page.common_helpers'
         ],
     include_package_data=True,
     license='MIT', 
