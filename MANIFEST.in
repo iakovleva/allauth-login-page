@@ -1,0 +1,4 @@
+recursive-include static/auth *.png
+recursive-include static/css *.*
+recursive-include templates/accounts *.html
+recursive-include templates/socialaccount *.html
