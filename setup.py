@@ -9,8 +9,8 @@ setup(
     version='0.1',
     packages=[
         'allauth-login-page', 
-        'allauth-login-page.helpers'
-        'allauth-login-page.common_helpers'
+        'allauth-login-page.helpers',
+        'allauth-login-page.common_helpers',
         ],
     include_package_data=True,
     license='MIT', 
