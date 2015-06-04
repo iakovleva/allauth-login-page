@@ -5,7 +5,7 @@ from django.utils.translation import ugettext
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 
-from accounts.helpers import allauth as allauth_helpers
+from account.helpers import allauth as allauth_helpers
 from . import forms as accounts_forms
 from account.common_helpers import formrenderer
 
