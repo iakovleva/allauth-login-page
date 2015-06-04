@@ -13,7 +13,9 @@ setup(
         'allauth-login-page.common_helpers',
         ],
     package_data={
-        '': ['static', 'templates', 'templatetags'],
+        'static': ['*'], 
+        'templates': ['*'],
+        'templatetags': ['*'],
         }, 
     include_package_data=True,
     license='MIT', 
